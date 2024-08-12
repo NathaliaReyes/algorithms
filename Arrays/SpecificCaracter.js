@@ -1,7 +1,7 @@
 // Given an array of Strings return the string that has the most repeated character
 
 function SpecCaracter() {
-  const array = ['SilviA', 'LucAs', 'Laura', 'Paula', 'Lanana', 'Cesy', 'Julianaya'];
+  const array = ['SilviA', 'LucAs', 'Laura', 'Paula', 'Lanana', 'Cesy', 'Samara'];
   let arrayWithA = [];
   for(let i = 0; i < array.length; i++){
     if(array[i].includes('a') || array[i].includes('A')){
@@ -17,7 +17,7 @@ SpecCaracter();
 
 // Given an array of Strings return the string or strings that has the most repeated character
 function MostSpecCar(){
-  const array = ['SilviA', 'LucAs', 'Laura', 'Paula', 'Lanana', 'Cesy', 'Julianaya'];
+  const array = ['SilviA', 'LucAs', 'Laura', 'Paula', 'Lanana', 'Cesy', 'Samara'];
 
   // Function to count the number of times a character is repeated in a string
   const countA = (str) => (str.match(/a/gi) || []).length;
