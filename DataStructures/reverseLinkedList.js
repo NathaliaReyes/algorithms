@@ -82,3 +82,4 @@ let head = createLinkedList([1, 2, 3, 4, 5])
  let reversedHead = reverseList(head);
  //Linked list after is reversed:
  console.log('list reversed: ', printLinkedList(reversedHead));
+ console.log(typeof(printLinkedList(reversedHead)));
