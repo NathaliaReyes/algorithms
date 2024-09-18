@@ -37,7 +37,7 @@ function matrix(arr){
     }
     console.log('min Values: ',minValues);
 
-    // Now find both: the largest number in teh row and samellest in the column
+    // Now find both: the largest number in teh row and sma llest in the column
     // find from the maxValues the smallest one: [2, 4, 5]
     let result = Math.min(...maxValues);
     console.log(result);
